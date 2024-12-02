@@ -23,7 +23,7 @@ A desktop application that translates SRT subtitle files from any language to Gr
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/srt-translator.git
+git clone https://github.com/greemlin/srt-translator.git
 cd srt-translator
 ```
 
