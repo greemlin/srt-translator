@@ -1,60 +1,59 @@
-# Galileo
+# SRT Translator
 
-Galileo is a modern web application that helps users explore and analyze astronomical data.
+A desktop application that translates SRT subtitle files from any language to Greek. Built with PyQt6 for a user-friendly interface and Google Translate API for translations.
 
 ## Features
 
-- Interactive visualization of astronomical data
-- Data analysis tools
-- User-friendly interface
+- Simple and intuitive graphical user interface
+- Select and translate SRT files with a few clicks
+- Progress bar to track translation progress
+- Automatic detection of source language
+- Creates a new file with "_greek" suffix for translated subtitles
+- Preserves original SRT timing and formatting
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.8 or higher
-- Node.js and npm (for frontend development)
+- PyQt6
+- googletrans 3.1.0a0
 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Galileo.git
-cd Galileo
+git clone https://github.com/yourusername/srt-translator.git
+cd srt-translator
 ```
 
-2. Install Python dependencies:
+2. Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Install frontend dependencies:
-```bash
-npm install
-```
-
 ## Usage
 
-1. Start the development server:
+1. Run the application:
 ```bash
-python app.py
+python srt_translator.py
 ```
 
-2. Open your web browser and navigate to `http://localhost:5000`
+2. Click "Select SRT File" to choose your subtitle file
+3. Click "Translate to Greek" to start the translation
+4. A new file will be created in the same directory as your original file, with "_greek" added to the filename
+
+## Notes
+
+- The application uses Google Translate API through the `googletrans` library
+- Internet connection is required for translation
+- Translation quality depends on Google Translate's capabilities
+- The application preserves all timing information from the original subtitles
 
 ## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-Your Name - [@yourusername](https://twitter.com/yourusername)
-Project Link: [https://github.com/yourusername/Galileo](https://github.com/yourusername/Galileo)
