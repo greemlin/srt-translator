@@ -82,7 +82,7 @@ class SRTTranslator(QMainWindow):
             total_subs = len(subtitles)
             
             # Prepare the output file name
-            output_filename = self.selected_file[:-4] + '_greek.srt'
+            output_filename = self.selected_file[:-4] + '.el.srt'
             
             with open(output_filename, 'w', encoding='utf-8') as out_file:
                 for idx, (number, timestamp, text) in enumerate(subtitles):

@@ -41,7 +41,7 @@ python srt_translator.py
 
 2. Click "Select SRT File" to choose your subtitle file
 3. Click "Translate to Greek" to start the translation
-4. A new file will be created in the same directory as your original file, with "_greek" added to the filename
+4. A new file will be created in the same directory as your original file, with ".el" added to the filename
 
 ## Notes
 
